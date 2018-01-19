@@ -3,12 +3,20 @@
   margin-top: var(--topbar-height);
   flex-direction: row;
   flex-wrap: wrap;
+  position: relative;
+  height: 100vh;
+}
+
+.container__professional_info .column__introduction{
+  position: relative;
+  top: -100px;
 }
 
 .column .section_typing_text {
   position: absolute;
   margin-left: 20%;
   font-family: "Computer Modern Typewriter Variable";
+  top: 40px;
 }
 
 /* ----- */
