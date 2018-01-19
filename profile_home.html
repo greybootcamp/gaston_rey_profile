@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Profile</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="./fonts/cmun-typewriter-variable.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navigation_bar.css">
+    <link rel="stylesheet" href="./css/profile_introduction.css">
+    <link rel="stylesheet" href="./css/professional_info.css">    
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+
+<body>
+    <main>
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <a href="#introduction">
+                        Introduction
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#professional_info">
+                        Career
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="container__personal_info">
+            <div class="colored__bar"></div>
+            <div class="columns__profile col-20"></div>
+            <div class="columns__profile personal_info" id="personal_info">
+                <h2>Profile</h2>
+                <p class="lead">I'm a creative Software Developer</p>
+                <hr>
+                <div class="container__bioinfo">
+                    <div class="bio__columns column__about_me">
+                        <h3>About me</h3>
+                        <p>
+                            I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. I love structure and
+                            order and I also stand for quality. I love spending time on fixing little details and optimizing
+                            web apps. Also I like working in a team, you'll learn faster and much more. As the saying goes:
+                            'two heads are better than one'.
+                        </p>
+                    </div>
+                    <div class="bio__columns column__my_picture">
+                        <img src="images/about_me.jpg" alt="Gaston Rey">
+                    </div>
+                    <div class="bio__columns column__details">
+                        <h3>Details</h3>
+                        <strong>Name:</strong>
+                        <br> Gastón Leonardo Rey Fernandez
+                        <br>
+                        <strong>Age:</strong>
+                        <br> 35 Years
+                        <br>
+                        <strong>Location:</strong>
+                        <br> Spain, Barcelona
+                    </div>
+                </div>
+            </div>
+            <div class="columns__profile col-20"></div>
+            <div class="colored__bar"></div>
+        </section>
+
+        <section class="container__professional_info">
+            <div class="column column__introduction" id="introduction">
+                <div class="fullscreen-bg">
+                    <video loop muted autoplay poster="images/Vacay_Mode.jpg" class="introduction-bg__video">
+                        <source src="media/introduction/Vacay_Mode.webm" type="video/webm">
+                        <source src="media/introduction/Vacay_Mode.mp4" type="video/mp4">
+                        <source src="media/introduction/Vacay_Mode.ogv" type="video/ogg">
+                    </video>
+                </div>
+                <div class="section_typing_text">
+                    <h1>
+                        <p class="typewrite" data-period="1000" data-type='[ "Hi, Im Gastón.", "I am Creative and Curious.", "I Love Playing music.", "But I also love reading.", "Well actually I love coding.", "Mmm...in fact am really good at playing Football.", "Anyway, get in and discover a little bit more about me." ]'>
+                            <span class="wrap"></span>
+                        </p>
+                    </h1>
+                </div>
+            </div>
+            <div class="column column__professional_info" id="professional_info">
+                <div class="fullscreen-bg">
+                    <video loop muted autoplay class="professional_info-bg__video">
+                        <source src="media/professional/Love-Coding.webm" type="video/webm">
+                        <source src="media/professional/Love-Coding.mp4" type="video/mp4">
+                        <source src="media/professional/Love-Coding.ogv" type="video/ogg">
+                    </video>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer row-flex">
+        Made by Gaston Rey &copy 2017
+    </footer>
+    <script src="./js/auto_typing_effect.js"></script>
+</body>
+
+</html>

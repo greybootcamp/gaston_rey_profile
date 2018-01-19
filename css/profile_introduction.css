@@ -1,0 +1,97 @@
+.container__personal_info {
+  padding-top: var(--topbar-height);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container__personal_info .columns__profile {
+  text-align: center;
+  color: #727878;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: all-petite-caps;
+  font-weight: 100;
+  line-height: 21px;
+}
+
+.personal_info {
+  width: 60%;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+.container__personal_info .columns__profile p {
+  font-size: 21px;
+}
+
+.container__personal_info .columns__profile h2 {
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 1.1;
+  margin-top: var(--topbar-height);
+  margin-bottom: 20px;
+}
+
+hr {
+  margin: 40px 0px;
+  border-color: #727878;
+  opacity: 0.2;
+  margin: 40px 10px 40px 10px;
+}
+
+.container__bioinfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.container__bioinfo .bio__columns {
+  width: 33.33%;
+}
+
+.container__bioinfo .bio__columns h3 {
+  font-size: 28px;
+  font-weight: 300;
+  color: #22a39f;
+  margin-top: 0;
+}
+
+.container__bioinfo .bio__columns p {
+  font-size: 15px;
+  line-height: 1.64;
+  color: #434242;
+  text-align: left;
+  margin: 0 0 10px;
+}
+
+.bio__columns.column__my_picture img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.bio__columns.column__details {
+  text-align: left;
+  color: black;
+}
+
+.bio__columns.column__about_me {
+  text-align: left;
+}
+
+.bio__columns.column__details strong {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.colored__bar {
+  background: #F3EFE0;
+  width: 100%;
+}
