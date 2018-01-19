@@ -91,6 +91,10 @@ hr {
   margin-bottom: 20px;
 }
 
+.bio__columns.column__details {
+  text-align: right;
+}
+
 .colored__bar {
   background: #F3EFE0;
   width: 100%;
