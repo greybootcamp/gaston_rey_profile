@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Gastón Rey profile, Full Stack developer with Node.js and Python background. Custom Web App development"
+    />
+    <meta name="keywords" content="html, css, node.js, nodejs, ruby developer, python developer, quality, testing, automation engineer"
+    />
+    <meta name="author" content="Gastón Leonardo Rey Fernandez" />
     <title>My Profile</title>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
@@ -21,6 +26,11 @@
         <nav class="navbar">
             <ul class="navbar__list">
                 <li class="navbar__item">
+                    <a href="#home">
+                        Home
+                    </a>
+                </li>
+                <li class="navbar__item">
                     <a href="#introduction">
                         Introduction
                     </a>
@@ -33,10 +43,10 @@
             </ul>
         </nav>
 
-        <section class="container__personal_info">
+        <section class="container__personal_info" id="home">
             <div class="colored__bar"></div>
             <div class="columns__profile col-20"></div>
-            <div class="columns__profile personal_info" id="personal_info">
+            <div class="columns__profile personal_info">
                 <h2>Profile</h2>
                 <p class="lead">I'm a creative Software Developer</p>
                 <hr>
@@ -63,6 +73,10 @@
                         <br>
                         <strong>Location:</strong>
                         <br> Spain, Barcelona
+                        <br>
+                        <a href="http://www.linkedin.com/in/sophie-amberkar-80255746">
+                            <img src="./images/linkedin.png">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -70,8 +84,8 @@
             <div class="colored__bar"></div>
         </section>
 
-        <section class="container__professional_info">
-            <div class="column column__introduction" id="introduction">
+        <section class="container__professional_info" id="introduction">
+            <div class="column column__introduction">
                 <div class="fullscreen-bg">
                     <div>
                         <video loop muted autoplay poster="images/introduction_skills.jpg" class="introduction-bg__video">
@@ -88,8 +102,8 @@
                 </div>
 
                 <div class="container horizontal rounded">
-                    <div class="web-expertise">
-                        <h2>Web Expertise</h2>
+                    <div class="expertise web-expertise">
+                        <h2>_Web Expertise</h2>
                         <div class="progress-bar horizontal">
                             <div class="progress-track">
                                 <div class="progress-fill">
@@ -117,8 +131,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="dev-expertise">
-                        <h2>Development Expertise</h2>
+                    <div class="expertise dev-expertise">
+                        <h2>_Development Expertise</h2>
                         <div class="progress-bar horizontal">
                             <div class="progress-track">
                                 <div class="progress-fill">

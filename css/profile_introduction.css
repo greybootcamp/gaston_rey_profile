@@ -81,6 +81,11 @@ hr {
   color: black;
 }
 
+.bio__columns.column__details a img {
+  width: 90px;
+  height: 60px;
+}
+
 .bio__columns.column__about_me {
   text-align: left;
 }
@@ -92,6 +97,6 @@ hr {
 }
 
 .colored__bar {
-  background: #F3EFE0;
+  background: #f3efe0;
   width: 100%;
 }

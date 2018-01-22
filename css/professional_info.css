@@ -2,16 +2,12 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 100vh;
-}
-
-.column.column__introduction {
-  position: relative;
 }
 
 .column .section_typing_text {
   position: absolute;
   margin-left: 20%;
+  margin-top: var(--topbar-height);
   font-family: "Computer Modern Typewriter Variable";
 }
 
@@ -49,7 +45,6 @@
 
 .container {
   width: 100%;
-  margin: 20px;
   background: antiquewhite;
   padding: 20px;
   overflow: hidden;
@@ -100,6 +95,10 @@
 
 .horizontal .progress-fill span {
   display: none;
+}
+
+.container .expertise {
+  width: 30%;
 }
 
 /* @media (min-aspect-ratio: 16/9) {
