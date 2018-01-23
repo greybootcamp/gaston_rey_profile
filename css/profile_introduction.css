@@ -6,17 +6,6 @@
   flex-wrap: wrap;
 }
 
-.container__personal_info .columns__profile {
-  text-align: center;
-  color: #727878;
-  font-family: "Open Sans";
-  font-size: 14px;
-  font-style: normal;
-  font-variant: all-petite-caps;
-  font-weight: 100;
-  line-height: 21px;
-}
-
 .personal_info {
   width: 60%;
 }
@@ -37,7 +26,7 @@
   margin-bottom: 20px;
 }
 
-hr {
+.container__personal_info .columns__profile hr {
   margin: 40px 0px;
   border-color: #727878;
   opacity: 0.2;
@@ -81,6 +70,11 @@ hr {
   color: black;
 }
 
+.bio__columns.column__details a img {
+  width: 90px;
+  height: 60px;
+}
+
 .bio__columns.column__about_me {
   text-align: left;
 }
@@ -92,6 +86,6 @@ hr {
 }
 
 .colored__bar {
-  background: #F3EFE0;
+  background: #f3efe0;
   width: 100%;
 }

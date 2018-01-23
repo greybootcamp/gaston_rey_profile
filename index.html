@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Gastón Rey profile, Full Stack developer with Node.js and Python background. Custom Web App development"
+    />
+    <meta name="keywords" content="html, css, node.js, nodejs, ruby developer, python developer, quality, testing, automation engineer"
+    />
+    <meta name="author" content="Gastón Leonardo Rey Fernandez" />
+    <title>My Profile</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="./fonts/cmun-typewriter-variable.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navigation_bar.css">
+    <link rel="stylesheet" href="./css/profile_introduction.css">
+    <link rel="stylesheet" href="./css/hobbies.css">
+    <link rel="stylesheet" href="./css/professional_info.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+
+<body>
+    <main>
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <a href="#home">
+                        Home
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#introduction">
+                        Introduction
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#professional_info">
+                        Career
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="container__personal_info" id="home">
+            <div class="colored__bar"></div>
+            <div class="columns__profile col-20"></div>
+            <div class="columns__profile personal_info">
+                <h2>Profile</h2>
+                <p class="lead">I'm a creative Software Developer</p>
+                <hr>
+                <div class="container__bioinfo">
+                    <div class="bio__columns column__about_me">
+                        <h3>About me</h3>
+                        <p>
+                            I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. I love structure and
+                            order and I also stand for quality. I love spending time on fixing little details and optimizing
+                            web apps. Also I like working in a team, you'll learn faster and much more. As the saying goes:
+                            'two heads are better than one'.
+                        </p>
+                    </div>
+                    <div class="bio__columns column__my_picture">
+                        <img src="images/about_me.jpg" alt="Gaston Rey">
+                    </div>
+                    <div class="bio__columns column__details">
+                        <h3>Details</h3>
+                        <strong>Name:</strong>
+                        <br> Gastón Leonardo Rey Fernandez
+                        <br>
+                        <strong>Age:</strong>
+                        <br> 35 Years
+                        <br>
+                        <strong>Location:</strong>
+                        <br> Spain, Barcelona
+                        <br>
+                        <a href="https://www.linkedin.com/in/gaston-leoanrdo-rey/">
+                            <img src="./images/linkedin.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="columns__profile col-20"></div>
+            <div class="colored__bar"></div>
+        </section>
+
+        <section class="container__professional_info hobbies" id="introduction">
+            <div class="column column__introduction">
+                <div class="fullscreen-bg">
+                    <div>
+                        <video loop muted autoplay poster="images/introduction_skills.jpg" class="introduction-bg__video">
+                            <source src="media/introduction/introduction_skills.mp4" type="video/webm">
+                        </video>
+                    </div>
+                    <div class="section_typing_text">
+                        <h1>
+                            <p class="typewrite" data-period="1000" data-type='[ "Hi, Im Gastón.", "I am Creative and Curious.", "I Love Playing music.", "But I also love reading.", "Well actually I love coding.", "Mmm...in fact am really good at playing Football.", "Anyway, get in and discover a little bit more about me." ]'>
+                                <span class="wrap"></span>
+                            </p>
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="column languages">
+                    <h2>languages am proficient at</h2>
+                    <div class="language spanish">
+                        <h3>Spanish (Native)</h3>
+                        <span>
+                            <img src="./images/star.png" alt="star">
+                            <img src="./images/star.png" alt="star">
+                            <img src="./images/star.png" alt="star">
+                            <img src="./images/star.png" alt="star">
+                            <img src="./images/star.png" alt="star">
+                        </span>
+                    </div>
+
+                    <div class="language english">
+                        <h3>English (Fluent)</h3>
+                        <span>
+                            <img src="./images/star.png" alt="star">
+                            <img src="./images/star.png" alt="star">
+                            <img src="./images/star.png" alt="star">
+                            <img src="./images/star.png" alt="star">
+                        </span>
+                    </div>
+                </div>
+                <hr align="center" width="50%" style="display: -webkit-inline-box">
+                <div class="column hobbies">
+                    <h2>My Hobbies</h2>
+                    <div class="hobbies">
+                        <div class="hobbies__category football">
+                            <h3>Football</h3>
+                            <span>
+                                <img src="./images/football.png" alt="star">
+                            </span>
+                        </div>
+
+                        <div class="hobbies__category music">
+                            <h3>Playing Guitar</h3>
+                            <span>
+                                <img src="./images/rock-guitar.png" alt="star">
+                            </span>
+                        </div>
+
+                        <div class="hobbies__category reading">
+                            <h3>Reading books</h3>
+                            <span>
+                                <img src="./images/book.png" alt="star">
+                            </span>
+                        </div>
+
+                        <div class="hobbies__category travelling">
+                            <h3>Travelling</h3>
+                            <span>
+                                <img src="./images/travel.png" alt="star">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="column container__professional_info career" id="professional_info">
+            <div class="column__professional_info ">
+                <h1>Skiils</h1>
+                <div class="container horizontal rounded ">
+                    <div class="expertise web-expertise ">
+                        <span class="shake ">
+                            <h2>_Web Expertise</h2>
+                        </span>
+
+                        <div class="progress-bar horizontal ">
+                            <div class="progress-track ">
+                                <div class="progress-fill ">
+                                    <span data="100"></span>
+                                    CSS
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar horizontal ">
+                            <div class="progress-track ">
+                                <div class="progress-fill ">
+                                    <span data="80"></span>
+                                    HTML
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar horizontal ">
+                            <div class="progress-track ">
+                                <div class="progress-fill ">
+                                    <span data="95"></span>
+                                    UX/UI
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="expertise dev-expertise ">
+                        <h2>_Development Expertise</h2>
+                        <div class="progress-bar horizontal ">
+                            <div class="progress-track ">
+                                <div class="progress-fill ">
+                                    <span data="100"></span>
+                                    Python
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar horizontal ">
+                            <div class="progress-track ">
+                                <div class="progress-fill">
+                                    <span data="100"></span>
+                                    Ruby
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar horizontal ">
+                            <div class="progress-track ">
+                                <div class="progress-fill ">
+                                    <span data="95"></span>
+                                    JavaScript
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer row-flex ">
+        Made by Gaston Rey &copy 2017
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/scroll.js "></script>
+    <script type="text/javascript" src="./js/bars_percentage.js "></script>
+    <script type="text/javascript" src="./js/auto_typing_effect.js "></script>
+    <script type="text/javascript" src="./js/adjust_scroll.js "></script>
+</body>
+
+</html>
