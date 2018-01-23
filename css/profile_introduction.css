@@ -6,17 +6,6 @@
   flex-wrap: wrap;
 }
 
-.container__personal_info .columns__profile {
-  text-align: center;
-  color: #727878;
-  font-family: "Open Sans";
-  font-size: 14px;
-  font-style: normal;
-  font-variant: all-petite-caps;
-  font-weight: 100;
-  line-height: 21px;
-}
-
 .personal_info {
   width: 60%;
 }

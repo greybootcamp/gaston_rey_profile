@@ -5,6 +5,17 @@
 }
 
 body {
+  text-align: center;
+  color: #727878;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: all-petite-caps;
+  font-weight: 100;
+  line-height: 21px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   --grid-size: 12;
   top: 0;
   margin-top: 0;
