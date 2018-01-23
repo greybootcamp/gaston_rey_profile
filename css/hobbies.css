@@ -3,7 +3,6 @@
 }
 
 .languages {
-  margin: 40px 0;
   text-align: center;
   font-family: sans-serif;
   font-weight: 100;
@@ -56,7 +55,10 @@
 }
 
 .hobbies__category {
-  width: 20%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: gainsboro;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
