@@ -55,8 +55,8 @@
 }
 
 .hobbies__category {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background: gainsboro;
   display: flex;
@@ -64,6 +64,7 @@
   flex-wrap: nowrap;
   justify-content: center;
   margin: auto;
+  border-right-style: outset;
 }
 
 .column.languages hr {
