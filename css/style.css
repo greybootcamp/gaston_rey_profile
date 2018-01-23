@@ -17,13 +17,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   --grid-size: 12;
-  top: 0;
+  top: 50px;
   margin-top: 0;
+  margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
-  margin-bottom: 0;
-  margin-right: 0;
-  top: 0;
   --topbar-height: 50px;
   --main-text-color: #f7f7f7;
   --secondary-text-color: #a4a4a4;
