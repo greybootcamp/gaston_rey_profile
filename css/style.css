@@ -10,7 +10,7 @@ body {
   font-family: "Open Sans";
   font-size: 14px;
   font-style: normal;
-  font-variant: all-petite-caps;
+  text-transform: uppercase;
   font-weight: 100;
   line-height: 21px;
   -webkit-font-smoothing: antialiased;
@@ -28,9 +28,11 @@ body {
 }
 
 main {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: column; */
+  display: block;  /* new */
+  width: 100%;
 }
 
 .clearfix:after {

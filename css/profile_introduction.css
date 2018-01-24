@@ -15,7 +15,7 @@
 }
 
 .container__personal_info .columns__profile p {
-  font-size: 21px;
+  font-size: 18px;
 }
 
 .container__personal_info .columns__profile h2 {
@@ -45,14 +45,14 @@
 }
 
 .container__bioinfo .bio__columns h3 {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 300;
   color: #22a39f;
   margin-top: 0;
 }
 
 .container__bioinfo .bio__columns p {
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.64;
   color: #434242;
   text-align: left;
@@ -81,7 +81,7 @@
 
 .bio__columns.column__details strong {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 12px;
   margin-bottom: 20px;
 }
 
