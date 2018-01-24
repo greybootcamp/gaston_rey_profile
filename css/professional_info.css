@@ -126,15 +126,15 @@
   border-bottom-style: inset;
 }
 
-/* @media (min-aspect-ratio: 16/9) {
-  .fullscreen-bg__video {
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg {
     height: 300%;
     top: -100%;
   }
 }
 
 @media (max-aspect-ratio: 16/9) {
-  .fullscreen-bg__video {
+  .fullscreen-bg {
     width: 300%;
     left: -100%;
   }
@@ -145,7 +145,7 @@
     background: url("../img/videoframe.jpg") center center / cover no-repeat;
   }
 
-  .fullscreen-bg__video {
+  .fullscreen-bg {
     display: none;
   }
-} */
+}
