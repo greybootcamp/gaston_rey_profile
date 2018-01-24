@@ -114,8 +114,15 @@
 
 .container .expertise {
   width: 45%;
-  background: beige;
+  background: white;
   padding: 0 20px;
+}
+
+.row.personal-skills-rows {
+  text-align: left;
+  margin: 10px;
+  background: white;
+  border-bottom-style: inset;
 }
 
 /* @media (min-aspect-ratio: 16/9) {
