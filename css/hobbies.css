@@ -18,7 +18,7 @@
   width: 30%;
 }
 
-.column.languages span img {
+.column.languages div img {
   padding-right: 3px;
   padding-top: 3px;
   display: inline-block;
