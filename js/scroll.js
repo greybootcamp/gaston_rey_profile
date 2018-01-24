@@ -20,7 +20,6 @@ jQuery(document).ready(function($) {
           : $("[name=" + this.hash.slice(1) + "]");
         // Does a scroll target exist?
         if (target.length) {
-          event.preventDefault();
           $("html, body").animate(
             {
               scrollTop: target.offset().top
@@ -35,7 +34,7 @@ jQuery(document).ready(function($) {
                 // Checking if the target was focused
                 return false;
               } else {
-                // $target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
+                $target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
                 $target.focus(); // Set focus again
               }
             }
