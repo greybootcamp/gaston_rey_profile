@@ -113,7 +113,9 @@
 }
 
 .container .expertise {
-  width: 30%;
+  width: 45%;
+  background: beige;
+  padding: 0 20px;
 }
 
 /* @media (min-aspect-ratio: 16/9) {

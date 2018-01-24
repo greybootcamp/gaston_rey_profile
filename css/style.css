@@ -63,6 +63,10 @@ main {
   animation-iteration-count: infinite;
 }
 
+div .border-top-styled {
+  border-top-style: ridge;
+}
+
 .footer {
   bottom: 0px;
   height: 30px;
