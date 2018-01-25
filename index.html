@@ -92,11 +92,11 @@
         <section class="container__professional_info hobbies fade-in" id="introduction">
             <div class="column column__introduction">
                 <div class="fullscreen-bg">
-                    
-                        <video loop muted autoplay poster="images/introduction_skills.jpg" class="introduction-bg__video">
-                            <source src="media/introduction/introduction_skills.mp4" type="video/mp4">
-                        </video>
-                    
+
+                    <video loop muted autoplay poster="images/introduction_skills.jpg" class="introduction-bg__video">
+                        <source src="media/introduction/introduction_skills.mp4" type="video/mp4">
+                    </video>
+
                     <div class="section_typing_text">
                         <h1>
                             <p class="typewrite" data-period="1000" data-type='[ "Hi, Im Gastón.", "I am Creative and Curious.", "I Love Playing music.", "But I also love reading.", "Well actually I love coding.", "Mmm...in fact am really good at playing Football.", "Anyway, get in and discover a little bit more about me." ]'>
@@ -298,11 +298,62 @@
 
             </div>
         </section>
+        <section class="contact-content row">
+            <h2>Any web project in your mind?</h2>
+            <h3>Tell us more...</h3>
+            <div class="column googlemap">
+                <div id="googleMap"></div>
+            </div>
+
+            <div class="column form">
+                <form id="contact-form" class="form" name="developer-contact" method="get" novalidate>
+                    <div class="form-row">
+                        <label for="nombre">Name:</label>
+                        <input type="text" id="name" name="client-name" placeholder="Name" required>
+                    </div>
+
+                    <div class="form-row">
+                        <span>Surname/s</span>
+                        <input type="text" id="surname" name="surname" placeholder="Surname" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="emial">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="name@company.com" pattern="[A-Za-Z0-9\.\+]+@[A-Za-Z0-9]+\.[A-Za-Z0-9\.]+"
+                            required>
+                    </div>
+
+                    <div class="form-row">
+                        <span>Provide an explanation about what you need</span>
+                        <textarea rows="10" cols="60" maxlength="250" id="service-request" name="request" required></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="due-date">Estimated date to be delivered?</label>
+                        <input type="date" id="due-date" name="due-date-from-client" required>
+                    </div>
+
+                    <div class="form-row">
+                        <span>¿Do you already have a project on production?</span>
+                        <label for="project-yes">Yes</label>
+                        <input type="radio" id="project-yes" name="actual-project-domain" value="yes" required>
+                        <label for="project-no">No</label>
+                        <input type="radio" id="project-no" name="actual-project-domain" value="no" required>
+                    </div>
+
+                    <div class="form-row">
+                        <button type="submit" id="enviar">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
 
     <footer class="footer row-flex ">
         Made by Gaston Rey &copy 2017
     </footer>
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
 
@@ -311,6 +362,8 @@
     <script type="text/javascript" src="./js/bars_percentage.js "></script>
     <script type="text/javascript" src="./js/auto_typing_effect.js "></script>
     <script type="text/javascript" src="./js/bounce_content_up_onload.js "></script>
+    <script type="text/javascript" src="./js/contact_form.js "></script>
+    <script type="text/javascript" src="./js/notifications.js "></script>
 </body>
 
 </html>
