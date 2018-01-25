@@ -24,6 +24,7 @@ for (var i = 0; i < domainInput.length; i++) {
         } else {
             if (document.getElementById("domainUrl")) {
                 this.parentNode.removeChild(actualDomainUrl);
+                actualDomainUrl = null;
             }
         }
     });
@@ -61,7 +62,7 @@ form.addEventListener("submit", function (event) {
         return false;
     }
 
-    if(document.getElementsByName("domain-url")) {
+    if(document.getElementById("domainUrl") !== null) {
 		if(actualDomainUrl.checkValidity() == false || empty(actualDomainUrl)){
 			sendNotification("Invalid Field", "Please, specify your actual project URL")
 			actualDomainUrl.focus();
