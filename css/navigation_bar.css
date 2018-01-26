@@ -6,6 +6,7 @@
   background-color: var(--main-text-color);
   z-index: 1;
   height: var(--topbar-height);
+  animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 .navbar > .navbar__list {
@@ -42,4 +43,13 @@
   color: var(--main-text-color);
   background-color: var(--secondary-text-color);
   height: var(--topbar-height);
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
