@@ -28,10 +28,9 @@ body {
 }
 
 main {
-  /* display: flex;
+  display: flex;
   flex-wrap: wrap;
-  flex-direction: column; */
-  display: block;  /* new */
+  flex-direction: row;
   width: 100%;
 }
 

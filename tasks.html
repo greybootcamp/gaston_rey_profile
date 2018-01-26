@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Gastón Rey profile, Full Stack developer with Node.js and Python background. Custom Web App development"
+    />
+    <meta name="keywords" content="html, css, node.js, nodejs, ruby developer, python developer, quality, testing, automation engineer"
+    />
+    <meta name="author" content="Gastón Leonardo Rey Fernandez" />
+    <title>Tasks Info</title>
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" type="image/png" href="./images/task_icon.png" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="./fonts/cmun-typewriter-variable.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navigation_bar.css">
+    <link rel="stylesheet" href="./css/tasks.css">
+
+</head>
+
+<body>
+    <main class="container">
+        <nav class="navbar-tasks">
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <a href="index.html">
+                        <img src="./images/back_to_home.png" alt="back button">
+                        <p>Back to Home</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <section class="section-content tasks">
+            <div>
+                <p>
+                    List Tasks
+                </p>
+            </div>
+            <div class="tasks-container">
+                <div class="add-task">
+                    <h3>New Task</h3>
+                    <form>
+                        <input type="text" id="newTaskTitle" name="name" placeholder="Create new task" required>
+                        <br>
+                        <br>
+                        <button id="submitTask">Create</button>
+                    </form>
+                </div>
+                <div class="pending-tasks">
+                    <h3>Pending Tasks</h3>
+                    <div class="loading"></div>
+                    <div class="tasks-list">
+                        <ul id="tasksContainer"></ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer row-flex ">
+        Made by Gaston Rey &copy 2017
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/tasks.js "></script>
+</body>
+
+</html>

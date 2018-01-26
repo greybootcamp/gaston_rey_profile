@@ -7,6 +7,10 @@
   height: 100vh;
 }
 
+.container__professional_info.hobbies {
+  width: 100%;
+}
+
 .column__professional_info {
   display: flex;
   flex-direction: column;
