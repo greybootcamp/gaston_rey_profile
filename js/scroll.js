@@ -32,6 +32,7 @@ jQuery(document).ready(function($) {
               $target.focus();
               if ($target.is(":focus")) {
                 // Checking if the target was focused
+                scrollBy(0, -50);
                 return false;
               } else {
                 $target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
