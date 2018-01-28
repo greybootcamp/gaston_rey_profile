@@ -7,6 +7,7 @@ var requestTextarea = document.getElementById("service-request");
 var domainInput = document.getElementsByName("actual-project-domain");
 var dueDate = document.getElementById("due-date");
 var phone = document.getElementById("phone-number");
+var submitButton = document.getElementById("send-form-bt");
 
 var actualDomainUrl = document.createElement("input");
 actualDomainUrl.setAttribute("id", "domainUrl");
@@ -110,9 +111,24 @@ form.addEventListener("submit", function(event) {
   submitButton.setAttribute("disabled", "");
   event.preventDefault();
 
+  const formToJSON = elements =>
+    [].reduce.call(
+      elements,
+      (data, element) => {
+        data[element.name] = element.value;
+        return data;
+      },
+      {}
+    );
+
+  const data = formToJSON(form.elements);
+
+  // Serialize the form data.
+  var formData = JSON.stringify(data, null, "  ");
+  submitForm(formData);
+
   setTimeout(function() {
     form.reset();
-    sendNotification("Form has been successfully sent, Thanks!");
     submitButton.removeAttribute("disabled");
   }, 1000);
 });
