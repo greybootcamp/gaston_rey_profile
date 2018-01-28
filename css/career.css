@@ -4,7 +4,8 @@ section#experience {
   align-items: center;
   text-align: left;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
+  margin: 50px;
 }
 
 .career-list {

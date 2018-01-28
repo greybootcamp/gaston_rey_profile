@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin: 50px;
+  height: 100%;
 }
 
 .technologies .title {
