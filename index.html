@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="./css/professional_info.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/photo_slider.css">
+    <link rel="stylesheet" href="./css/technologies.css">
+    <link rel="stylesheet" href="./css/career.css">
 
     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAbaXpI18WH39SYi-4HTxTrtmUBp3_TZos"></script>
     <script>
@@ -51,24 +53,29 @@
         <nav class="navbar">
             <ul class="navbar__list">
                 <li class="navbar__item">
-                    <a href="#home">
-                        Home
-                    </a>
-                </li>
-                <li class="navbar__item">
                     <a href="#introduction">
                         Introduction
                     </a>
                 </li>
                 <li class="navbar__item">
+                    <a href="#aboutMe">
+                        More About Me
+                    </a>
+                </li>
+                <li class="navbar__item">
                     <a href="#professional_info">
+                        Some Of My Key Skills
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#experience">
                         Career
                     </a>
                 </li>
             </ul>
         </nav>
 
-        <section class="container__personal_info fade-in" id="home">
+        <section class="container__personal_info fade-in" id="introduction">
             <div class="colored__bar"></div>
             <div class="columns__profile col-20"></div>
             <div class="columns__profile personal_info">
@@ -109,7 +116,7 @@
             <div class="colored__bar"></div>
         </section>
 
-        <section class="container__professional_info hobbies fade-in" id="introduction">
+        <section class="container__professional_info hobbies fade-in" id="aboutMe">
             <div class="column column__introduction">
                 <div class="fullscreen-bg">
 
@@ -185,7 +192,7 @@
             </div>
         </section>
 
-        <section class="column container__professional_info career" id="professional_info">
+        <section class="column container__professional_info" id="professional_info">
             <div class="column__professional_info bounce-up">
                 <h1>Skills</h1>
                 <div class="container horizontal rounded">
@@ -314,10 +321,97 @@
             </div>
 
             <div class="column technologies">
-                <h2>Technologies I feel comfortable with</h2>
+                <div class="title">
+                    <h2>Some of my prefered technologies</h2>
+                </div>
+                <div class="images-container">
+                    <div class="operating-systems">
+                        <span>
+                            <img src="./images/warp.png" alt="os2_warp">
+                        </span>
+                        <span>
+                            <img src="./images/mac_os.png" alt="macos">
+                        </span>
+                        <span>
+                            <img src="./images/linux.svg" alt="linux">
+                        </span>
+                        <span>
+                            <img src="./images/bsd.svg" alt="bsd">
+                        </span>
+                    </div>
 
+                    <div class="development">
+                        <span>
+                            <img src="./images/node.png" alt="node">
+                        </span>
+                        <span>
+                            <img src="./images/docker.png" alt="docker">
+                        </span>
+                        <span>
+                            <img src="./images/github.png" alt="github">
+                        </span>
+                        <span>
+                            <img src="./images/ruby.png" alt="ruby">
+                        </span>
+                        <span>
+                            <img src="./images/python.png" alt="python">
+                        </span>
+                    </div>
+                </div>
             </div>
         </section>
+
+        <section class="career fade-in" id="experience">
+
+            <h1>Career</h1>
+            <br>
+            <div class="career-list bounce-up in-view">
+                <hr>
+                <section class="career-item">
+                    <h1> > Netques SA</h1>
+                    <div class="career-item-content">
+                        <h3>From Sept. 2017 - Present</h3>
+                        <p>
+                            Automation Engineer - Doing QA and Automation using Ruby, Docker and AWS.
+                        </p>
+                    </div>
+                </section>
+                <hr>
+                <section class="career-item">
+                    <h1> > Test-Cloud</h1>
+                    <div class="career-item-content">
+                        <h3>From Dic. 2013 - Aug. 2017</h3>
+                        <p>
+                            Automation Engineer - Worked developing frameworks on Ruby and Python for clients to be able to automate soem of their pipeline
+                            processes.
+                        </p>
+                    </div>
+                </section>
+                <hr>
+                <section class="career-item career-item--default">
+                    <h1> > Digisoft</h1>
+                    <div class="career-item-content">
+                        <h3>From June 2013 - Dic. 2013</h3>
+                        <p>Developer in Test - Provided help and guidance to development team to be able to improve their development
+                            processes.
+                        </p>
+                    </div>
+                </section>
+                <hr>
+                <section class="career-item">
+                    <h1> > Buguroo</h1>
+                    <div class="career-item-content">
+                        <h3>From March 2011 - Jan. 2013</h3>
+                        <p>
+                            QA Lead - Built the QA team and helped the company to standarize the quelaity process.
+                        </p>
+                    </div>
+                </section>
+                <hr>
+            </div>
+            <div class="colored__bar"></div>
+        </section>
+
         <section class="contact-content row">
             <div class="column googlemap">
                 <div id="googleMap"></div>

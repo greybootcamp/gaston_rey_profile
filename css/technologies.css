@@ -1,0 +1,20 @@
+.technologies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.technologies .title {
+  margin: 50px;
+}
+
+.technologies .images-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.technologies .images-container span img {
+  width: 100px;
+}
