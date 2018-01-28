@@ -441,12 +441,19 @@
                     </div>
                     <div class="form-row">
                         <label for="phone">Phone Number</label>
-                        <input type="text" id="phone-number" name="phone" placeholder="+(34)123 123 123" required>
+                        <div class="tooltip">
+                            <input type="text" id="phone-number" name="phone" placeholder="+(34)123 123 123" required>
+                            <span class="tooltiptext">Enter prefix + number without spaces (i.e: +34456456456)</span>
+                        </div>
                     </div>
 
                     <div class="form-row">
                         <span>Provide an explanation about what you need</span>
-                        <textarea rows="10" cols="60" id="service-request" name="request" required></textarea>
+
+                        <div class="tooltip">
+                            <textarea rows="10" cols="60" id="service-request" name="request" required></textarea>
+                            <span class="tooltiptext">Maximum 150 words</span>
+                        </div>
                     </div>
 
                     <div class="form-row">
@@ -459,7 +466,7 @@
                         <label for="project-yes">Yes</label>
                         <input type="radio" id="project-yes" name="actual-project-domain" value="yes" required>
                         <label for="project-no">No</label>
-                        <input type="radio" id="project-no" name="actual-project-domain" value="no" required>
+                        <input type="radio" id="project-no" name="actual-project-domain" value="no" checked="checked" required>
                     </div>
 
                     <div class="form-row">
