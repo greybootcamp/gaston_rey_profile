@@ -33,6 +33,10 @@
   transition: all 0.5s linear;
 }
 
+.navbar > .navbar__list > .navbar__item a[href="#contact-form"] {
+  border-left-style: groove;
+}
+
 .navbar > .navbar__list > .navbar__item--active a {
   color: var(--main-text-color);
   background-color: var(--secondary-text-color);
