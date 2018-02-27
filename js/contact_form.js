@@ -74,13 +74,13 @@ form.addEventListener("submit", function(event) {
   }
 
   //   Checking if content respects the max words on it
-  var wordsLength = countWordsINTEXT(requestTextarea.value);
+  var wordsLength = countWordsInText(requestTextarea.value);
   var nWords = document.createElement("p");
   nWords.setAttribute("id", "num-of-words");
   nWords.setAttribute("name", "words-counter");
   nWords.innerText = "* Maximum 150 words.";
 
-  if (wordsLength > 150) {
+  if (wordsLength > 150 || wordsLength <= 1) {
     if (document.getElementById("num-of-words") === null) {
       requestTextarea.parentNode.appendChild(nWords);
     }
@@ -144,7 +144,7 @@ function empty(input) {
   return false;
 }
 
-function countWordsINTEXT(text) {
+function countWordsInText(text) {
   // Cleaning up double spaces and others
   cleanedText = text.replace(/(^\s*)|(\s*$)/gi, "");
   cleanedText = text.replace(/[ ]{2,}/gi, " ");

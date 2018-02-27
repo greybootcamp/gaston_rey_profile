@@ -46,12 +46,12 @@ textarea::-webkit-input-placeholder {
 
 .form-row label {
   margin-right: 10px;
-  font-size: medium;
+  font-size: small;
 }
 
 .form-row span {
   margin-right: 10px;
-  font-size: medium;
+  font-size: small;
 }
 
 .form-row input[type="radio"] {
