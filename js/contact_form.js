@@ -130,6 +130,8 @@ form.addEventListener("submit", function(event) {
 
   setTimeout(function() {
     form.reset();
+    nWords.remove
+    actualDomainUrl.remove
     submitButton.removeAttribute("disabled");
   }, 1000);
 });
