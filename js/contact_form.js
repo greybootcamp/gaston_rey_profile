@@ -152,5 +152,5 @@ function countWordsInText(text) {
   cleanedText = text.replace(/[ ]{2,}/gi, " ");
   cleanedText = text.replace(/\n /, "\n");
 
-  return cleanedText.split(" ").length;
+  return cleanedText.split(' ').filter(function(i){return i}).length;
 }
